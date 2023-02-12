@@ -7,8 +7,10 @@ function Profile() {
         <div className="img ">
           <img src="https://i.pravatar.cc/" />
         </div>
-        <span>Report For</span>
-        <p>Best Sales</p>
+        <div>
+          <span>Report For</span>
+          <p>Best Sales</p>
+        </div>
       </div>
       <div className="profile-bottom">
         <p>Daily</p>

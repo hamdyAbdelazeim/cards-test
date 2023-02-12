@@ -1,15 +1,19 @@
 /* adding style for cards  */
-.App {
-  margin: 0;
-  padding: 0;
+* {
+  padding: 0px;
+  margin: 0px;
   box-sizing: border-box;
-  width: 99%;
-  height: 100%;
-  position: absolute;
-  /* top: 7rem; */
+}
+.App {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   color: #ffffff;
-  background-color: #0e1323;
+}
+@media screen and (max-width: 1200px) {
+  .App {
+    flex-direction: column;
+    width: 100%;
+  }
 }
