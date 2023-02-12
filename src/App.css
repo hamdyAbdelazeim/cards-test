@@ -10,10 +10,12 @@
   align-items: center;
   justify-content: space-evenly;
   color: #ffffff;
+  margin-top: 6rem;
 }
 @media screen and (max-width: 1200px) {
   .App {
     flex-direction: column;
-    width: 100%;
+    /* width: 100%; */
+    margin: 0;
   }
 }
